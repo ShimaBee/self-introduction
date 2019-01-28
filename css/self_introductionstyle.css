@@ -1,0 +1,212 @@
+body {
+  background-color: #5FB300;
+  margin:0;
+  padding:0;
+}
+
+header{
+  background-color: #8a3000;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100px;
+}
+.circle{
+  background-color: #8a3000;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+}
+.triangle1{
+  width: 60px;
+  height: 300px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#8a3000;
+  float: right;
+  animation-name: fall;
+  animation-duration: 5s;
+  display: inline-block;
+  position: relative;
+}
+.triangle2{
+  width: 60px;
+  height: 230px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#8a3000;
+  float: right;
+  animation-name: fall;
+  animation-duration: 5s;
+  display: inline-block;
+  position: relative;
+}
+.triangle3{
+  width: 60px;
+  height: 180px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#8a3000;
+  float: right;
+  animation-name: fall;
+  animation-duration: 5s;
+  display: inline-block;
+  position: relative;
+}
+.triangle4{
+  width: 60px;
+  height: 350px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#8a3000;
+  float: right;
+  animation-name: fall;
+  animation-duration: 5s;
+  display: inline-block;
+  position: relative;
+}
+.triangle5{
+  width: 60px;
+  height: 200px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#8a3000;
+  float: right;
+  animation-name: fall;
+  animation-duration: 5s;
+  display: inline-block;
+  position: relative;
+}
+@keyframes fall {
+  from{ transform : translateY(-100px); }
+  to{ transform : translateY(0px); }
+}
+.container{
+  text-align: center;
+  color: #8a3000;
+  font-family: 'Ultra', serif;
+}
+.top{
+  height:350px;
+}
+h1.title{
+  margin: 200px 0px 150px 0px;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  position: relative;
+}
+h1 rt{
+  font-size: 35px;
+}
+.name-container{
+  text-align: center;
+}
+.triangle-down-wrapper{
+  position: relative;
+  padding: 30px 50px;
+}
+.triangle-down1{
+  position: absolute;
+  top:40%;
+  left:50%;
+  width:0;
+  height:0;
+  border-top:40px solid #8a3000;
+  border-left:25px solid transparent;
+  border-right:25px solid transparent;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes anime {
+  from{ transform : translateY(-5px); }
+  50%{ transform : translateY(10px); }
+  to{ transform : translateY(-5px); }
+}
+.triangle-down2{
+  position: absolute;
+  top:10%;
+  left:50%;
+  width:0;
+  height:0;
+  border-top:40px solid #8a3000;
+  border-left:25px solid transparent;
+  border-right:25px solid transparent;
+  animation-name: anime;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+h2.topic-title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+.profile-wrapper{
+  padding: 50px 150px 80px 150px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: left;
+}
+
+.portfolio-wrapper{
+  padding: 0px 50px 80px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: left;
+}
+.cardstyle{
+  border-color: #8a3000;
+  background-color: #8a3000;
+  border-width: thick;
+}
+/* .card-body{
+  background-color: #5FB300;
+} */
+.card-title{
+  color: #5FB300;
+}
+.card p{
+  font-size: 15px;
+  color: #5FB300;
+}
+.button{
+  background-color: #5FB300;
+  color: white;
+  font-size: 15px;
+}
+
+ul, li {
+  padding-bottom: 30px;
+}
+.sns-wrapper{
+  padding: 0px 150px 80px 150px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+}
+h2.twitter-title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.twitter-wrapper{
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
