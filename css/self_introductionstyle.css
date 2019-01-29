@@ -58,7 +58,7 @@ header{
 }
 .triangle4{
   width: 60px;
-  height: 350px;
+  height: 280px;
   border-radius: 0 0 90px 90px;
   -moz-border-radius: 0 0 90px 90px;
   -webkit-border-radius: 0 0 90px 90px;
@@ -66,8 +66,8 @@ header{
   float: right;
   animation-name: fall;
   animation-duration: 5s;
-  display: inline-block;
-  position: relative;
+  /* display: inline-block;
+  position: relative; */
 }
 .triangle5{
   width: 60px;
@@ -79,8 +79,6 @@ header{
   float: right;
   animation-name: fall;
   animation-duration: 5s;
-  display: inline-block;
-  position: relative;
 }
 @keyframes fall {
   from{ transform : translateY(-100px); }
